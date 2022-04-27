@@ -1,0 +1,29 @@
+body
+{
+    background-size: cover;
+}
+
+#sp
+{
+    font-size: large;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.back_button
+{
+    font-size: medium;
+    margin-left: 100px;
+}
+
+.teddy
+{
+    margin-left: 100px;
+}
+
+canvas{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    
+}
