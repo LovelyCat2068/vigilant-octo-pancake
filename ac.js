@@ -29,7 +29,7 @@ function gotResults(error, resultds){
 
 function draw(){
     if(pickett != true){
-        for(i=0, i < pickett.length,i++;){
+        for(i=0; i < pickett.length;i++){
             confidence = floor(images[i].confidence * 100);
             label  = images[i].label+confidence+"%";
             text(label+images[i].x,images[i].y);
